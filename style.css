@@ -7,7 +7,7 @@ html {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: #333;
+    background-color: #474947;
     color: #ddd;
     font-family: 'Montserrat', sans-serif;
 }
@@ -15,9 +15,10 @@ html {
 img {
     width: 300px;
     height: 300px;
+    border-radius: 5px;
 }
 
-.descrição {
+.descricao {
     width: 300px;
 }
 
@@ -42,7 +43,7 @@ h2 {
 
 progress {
     height: 6px;
-    width: 50%;
+    width: 0;
     background-color: #333;
 }
 
@@ -74,7 +75,8 @@ progress {
     cursor: pointer;
 }
 
-.setas {
+.botao-proxima,
+.botao-anterior {
     font-size: 40px;
     cursor: pointer;
 }
